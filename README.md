@@ -1,16 +1,23 @@
-AISDI - Mini-projekt "liniowe"
-==============================
+# Linear structures
+==================================
 
-Cel ćwiczenia
+## Object
 -----------------------------
-Zapoznanie się poprzez implementację i testowanie z różnymi strukturami liniowymi.
+Learn through implementation and testing diffrent linear structues
 
-Zadanie do wykonania
+## Task:
 -----------------------------
-  1. Implementacja struktury liniowej o ciągłej alokacji przestrzeni (wektor).
-     Struktura powinna wykorzystywać pre-alokację (podczas alokacji alokować "z zapasem", tak by
-     nie każda operacja wymagała oddzielnej alokacji).
-  2. Implementacja struktury liniowej opartej o listę dwukierunkową.
-  3. Porównanie efektywności czasowej tych dwóch kolekcji dla co najmniej dwóch różnych operacji
-     (np. wstawianie na początek kolekcji i usuwanie elementu z końca itd. itp.).
+  1. Implementation of linear structure based on continuous memory allocation (vector)
+  2. Implementation of linear structure based on doubly linked list.
+  3. Campare efficiency of diffrent operations on structures. 
+  
+## Requirements
+--------------------------
+
+ - C++11 compatible compiler (g++ 4.7/4.8)
+ - GNU make
+ - Boost Libraries (Unit Test Framework)
+
+
+
 
